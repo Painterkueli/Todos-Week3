@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const logRequest = require('./Middlewares/Logger');
+const logRequest = require('./Middlewares/logger');
 const validateTodo = require('./Middlewares/validator');
 const validatePatch = require('./Middlewares/validatePatch');
 const errorhandler = require('./Middlewares/errorHandler');
