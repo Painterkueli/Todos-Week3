@@ -5,7 +5,7 @@ const cors = require('cors');
 const logRequest = require('./Middlewares/logger');
 const validateTodo = require('./Middlewares/validator');
 const validatePatch = require('./Middlewares/validatePatch');
-const errorhandler = require('./Middlewares/errorHandler');
+const errorhandler = require('./Middlewares/errorhandler');
 
 
 app.use(express.json()); // Parse JSON bodies
